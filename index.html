@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f0f2;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            max-width: 500px;
+            width: 90%;
+        }
+        .card-header {
+            background-color: #ff4d6d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            border: none;
+        }
+        .btn-sorry {
+            background-color: #ff4d6d;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 30px;
+            transition: 0.3s;
+        }
+        .btn-sorry:hover {
+            background-color: #c9184a;
+            color: white;
+            transform: scale(1.05);
+        }
+        .heart {
+            color: #ff4d6d;
+            font-size: 1.5rem;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            Dear [Rimsha]
+        </div>
+        <div class="card-body p-4 text-center">
+            <h4 class="mb-4">I am Truly Sorry</h4>
+            <p class="text-muted">
+                Mujhse galti hui aur main jaanta hoon ki mere words/action se tumhe dukh pahuncha hai. Tum mere liye bahut special ho aur main hamare rishte ko khona nahi chahta.
+            </p>
+            <p class="mb-4">
+                Kya tum mujhe ek mauka dogi ise theek karne ka? <span class="heart">♥</span>
+            </p>
+            <hr>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-sorry" onclick="alert('Thank you for being so kind! ❤️')">I Forgive You</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 ms-md-2" onclick="location.href='https://wa.me/923221863800'">Let's Talk</button>
+            </div>
+        </div>
+        <div class="card-footer text-center py-3 bg-white border-0">
+            <small class="text-muted">Forever yours...</small>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
